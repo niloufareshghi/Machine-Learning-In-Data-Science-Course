@@ -1,0 +1,5 @@
+To evaluate each model and decide which regression model is best for a database, we must calculate the adjusted R^2 coefficiant for each model and compare the scores.
+The code below shows the method of evaluating a model based on R^2 coefficiant:
+    from scikit.metrics import r2_score
+    r2_score(dependent_variable_test_set, dependent_variable_predictions)
+    
